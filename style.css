@@ -49,26 +49,28 @@ form button{
     min-width: 400px;
 }
 li {
-    font-size: 20px;
+    font-size: 15px;
     width: 100%;
     background: #f1f1f1;
     display: flex;
     align-items: center;
-    padding: 5px;
+    padding: 0px;
     color: #333;
     margin: 5px 0;
 }
 li input {
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
     margin-left: 15px;
 }
+
 li button {
     margin-left: auto;
-    padding: 5px;
+    padding: 1px;
 }
+
 button img {
-    width: 40px;
+    width: 20px;
     pointer-events: none;
 }
 li span {
@@ -78,4 +80,5 @@ li span {
 /* anim rayure */
 li.finDeTache span {
     text-decoration: line-through;
+    color: rgb(181, 36, 36);
 }
